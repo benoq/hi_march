@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:text="x_acc"></TextView>
+
+            <TextView
+                android:id="@+id/layout_x_acc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="0.0">
+            </TextView>
+
+            <TextView
+                android:text="y_acc">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+            </TextView>
+
+            <TextView
+                android:id="@+id/layout_y_acc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="0.0">
+            </TextView>
+
+            <TextView
+                android:text="z_acc">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="5"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+            </TextView>
+
+            <TextView
+                android:id="@+id/layout_z_acc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="6"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="0.0">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
